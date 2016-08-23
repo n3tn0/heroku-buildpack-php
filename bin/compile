@@ -288,7 +288,7 @@ install_newrelic_ext
 install_newrelic_userini
 
 
-pwd
+find | grep scripts
 php scripts/config_gen.php
 rm web -r
 mv site web

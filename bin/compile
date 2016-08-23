@@ -288,8 +288,8 @@ install_newrelic_ext
 install_newrelic_userini
 
 
-export SRC_DIR=./
-php ./scripts/config_gen.php
+cd web
+php ./../scripts/config_gen.php
 rm web -r
 mv site web
 

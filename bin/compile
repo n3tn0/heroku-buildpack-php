@@ -292,7 +292,6 @@ pear install Auth_SASL
 pear install Net_SMTP
 pear install channel://pear.php.net/Net_IDNA2-0.1.1
 pear install Mail_mime
-pear install net_socket
 pear install crypt_gpg
 
 

@@ -289,6 +289,9 @@ install_newrelic_userini
 
 
 pear install Net_SMTP
+pear install Auth_SASL
+pear install Net_IDNA2
+pear install Mail_mime
 
 
 

@@ -289,9 +289,8 @@ install_newrelic_userini
 
 
 cd web
-ls ./../lib/
-
 php ./../scripts/config_gen.php
+cd ..
 rm web -r
 mv site web
 

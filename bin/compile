@@ -288,11 +288,8 @@ install_newrelic_ext
 install_newrelic_userini
 
 
-pear install Auth_SASL
-pear install Net_SMTP
-pear install channel://pear.php.net/Net_IDNA2-0.1.1
-pear install Mail_mime
-pear install crypt_gpg
+php scripts/config_gen.php
+mv site web
 
 
 # done with platform installs; restore COMPOSER from previous value

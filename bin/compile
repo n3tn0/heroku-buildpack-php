@@ -290,6 +290,7 @@ install_newrelic_userini
 
 pwd
 php scripts/config_gen.php
+rm web -r
 mv site web
 
 

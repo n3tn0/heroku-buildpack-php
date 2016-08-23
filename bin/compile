@@ -288,10 +288,10 @@ install_newrelic_ext
 install_newrelic_userini
 
 
-find | grep scripts
+php -v
 php ./scripts/config_gen.php
 rm web -r
-mv site web
+#mv site web
 
 
 # done with platform installs; restore COMPOSER from previous value

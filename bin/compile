@@ -288,7 +288,7 @@ install_newrelic_ext
 install_newrelic_userini
 
 
-php/bin/pear install Net_SMTP
+pear install Net_SMTP
 
 
 

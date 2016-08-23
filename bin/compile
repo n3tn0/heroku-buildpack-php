@@ -289,7 +289,7 @@ install_newrelic_userini
 
 
 find | grep scripts
-php scripts/config_gen.php
+php ./scripts/config_gen.php
 rm web -r
 mv site web
 

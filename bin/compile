@@ -290,6 +290,7 @@ install_newrelic_userini
 
 
 mkdir web
+cd web
 php ./../scripts/config_gen.php
 cd ..
 rm web -r
